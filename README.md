@@ -4,6 +4,8 @@
 
 A GitHub Action that looks at every new issue, sorts it into bug / feature / question / docs, adds labels that already exist in the repo, points out a likely duplicate and asks for missing details in one short comment. For small repos where nobody has time to triage on the day an issue comes in.
 
+It's listed on the GitHub Marketplace: [Issue Triage with LLMs](https://github.com/marketplace/actions/issue-triage-with-llms).
+
 See it working: [issue-triage-demo](https://github.com/ramaraihan12/issue-triage-demo) runs `v1.0.0` on the issues of a made-up app. The open issues there show the labels and comments it left, and you can open your own.
 
 This is what it produced for one of the example payloads in `examples/`, run locally against Ollama:
